@@ -7,15 +7,17 @@ header{
     display: flex;
     justify-content: space-between;
     
+    
 }
 header,main,footer{
     width: 90%;
     margin: auto;
     
 }
-main,footer{
+main,{
     padding-top: 15px;
     margin-top: 15px;
+    
    
 }
 .header2 h2{
@@ -47,9 +49,11 @@ nav ul{
     margin-top: 0px;
 }
 /* MAIN */
-main{
+.grand{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 .images-plan{
     background-image: url("/images/sanfrancisco.jpg");
@@ -90,6 +94,9 @@ label{
     display: flex;
     margin-top: 15px;
 }
+.titre h2{
+    margin-top: 10px;
+}
 .a-propos1{
     display: flex;
     justify-content: space-between;
@@ -101,9 +108,10 @@ label{
 }
 .bordure{
     width: 35%;
-    height: 325px;
+    height: 415px;
     background-color: gray;
     border-radius: 10px;
+    color: white;
 }
 span{
     color: red;
@@ -111,4 +119,44 @@ span{
 }
 .paragraphe p{
     padding-top: 20px;
+}
+.icone{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box img{
+    font-size: 15px;
+}
+.bordure h2{
+    padding: 15px;
+}
+.bordure img{
+    display: flex;
+    margin: auto;
+}
+.bordure p{
+    padding: 10px;
+}
+.a-propos{
+    margin-bottom: 50px;
+}
+.ico{
+    display: flex;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    
+}
+.img{
+    padding: 2px;
+    
+}
+.img img{
+    border: 1px solid black;
 }
