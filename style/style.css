@@ -11,6 +11,12 @@ header{
 header,main,footer{
     width: 90%;
     margin: auto;
+    
+}
+main,footer{
+    padding-top: 15px;
+    margin-top: 15px;
+   
 }
 .header2 h2{
 margin-left: 70px;
@@ -90,7 +96,7 @@ label{
 }
 .paragraphe{
     width: 65%;
-    height: 300px;
+    height: 400px;
 
 }
 .bordure{
@@ -102,4 +108,7 @@ label{
 span{
     color: red;
     text-decoration: underline;
+}
+.paragraphe p{
+    padding-top: 20px;
 }
