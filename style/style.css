@@ -3,11 +3,22 @@
     padding: 0px;
 }
 /* STYLE FONT */
-@font-face{
+@font-face {
     font-family: "ballpark";
-    src:url("/polices/ballpark.eot");
-    font-weight: normal;
-    font-style: normal;
+    src: url("../police/ballpark.eot");
+    src: url("../police/ballpark.eot?#iefix") format("embedded-opentype"),
+         url("../police/ballpark.woff") format("woff"),
+         url("../police/ballpark.ttf") format("truetype"),
+         url("../police/ballpark.svg#ballpark") format("svg");
+}
+
+@font-face {
+    font-family: "dayrom";
+    src: url("../police/dayrom.eot");
+    src: url("../police/dayrom.eot?#iefix") format("embedded-opentype"),
+         url("../police/dayrom.woff") format("woff"),
+         url("../police/dayrom.ttf") format("truetype"),
+         url("../police/dayrom.svg#dayrom") format("svg");
 }
 body{
     background-color: rgb(255, 233, 208);
@@ -29,6 +40,8 @@ main{
 .header2 h2{
 margin-left: 70px;
 margin-top: 0px;
+font-family: "ballpark",sans-serif;
+
 }
 .header2 p{
     margin-top: 15px;
