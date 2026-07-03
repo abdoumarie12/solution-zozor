@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+/* STYLE FONT */
+@font-face{
+    font-family: "ballpark";
+    src:url("/polices/ballpark.eot");
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background-color: rgb(255, 233, 208);
 }
@@ -48,12 +55,14 @@ nav ul{
     margin-top: 0px;
 }
 /* MAIN */
+/* LE GRAND BORDURE */
 .grand{
     border-top: 1px solid rgb(247, 188, 188);
     border-bottom: 1px solid rgb(247, 188, 188);
     margin-top: 15px;
     padding-top: 15px;
 }
+/* IMAGE ARIERE PLANT */
 .images-plan{
     background-image: url("/images/sanfrancisco.jpg");
     background-size: cover;
@@ -64,6 +73,7 @@ nav ul{
     align-items: end;
     justify-content: space-between;
 }
+/* PETIT PRDURE NOIR */
 .noire{
     display: flex;
     width: 100%;
@@ -77,6 +87,7 @@ nav ul{
     
     
 }
+/* JE SUIS UN GRAND VOYAGEUR */
 .et{
     display: flex;
     align-items: center;
@@ -119,6 +130,7 @@ span{
 .paragraphe p{
     padding-top: 20px;
 }
+/* LES 4 ICONE DES RESAUX SOCIAUX */
 .icone{
     display: flex;
     justify-content: space-between;
@@ -144,6 +156,7 @@ span{
     display: flex;
     margin: auto;
 }
+/* FOOTER */
 .footer{
     display: flex;
     justify-content: space-between;
