@@ -1,24 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 /* STYLE FONT */
-@font-face {
-    font-family: "ballpark";
-    src: url("../police/ballpark.eot");
-    src: url("../police/ballpark.eot?#iefix") format("embedded-opentype"),
-         url("../police/ballpark.woff") format("woff"),
-         url("../police/ballpark.ttf") format("truetype"),
-         url("../police/ballpark.svg#ballpark") format("svg");
+@font-face{
+    font-family: ballpark;
+    src: url(../polices/ballpark.woff);
 }
-
-@font-face {
-    font-family: "dayrom";
-    src: url("../police/dayrom.eot");
-    src: url("../police/dayrom.eot?#iefix") format("embedded-opentype"),
-         url("../police/dayrom.woff") format("woff"),
-         url("../police/dayrom.ttf") format("truetype"),
-         url("../police/dayrom.svg#dayrom") format("svg");
+@font-face{
+    font-family: dayrom;
+    src: url(../polices/dayrom.woff);
 }
 body{
     background-color: rgb(255, 233, 208);
@@ -45,6 +37,7 @@ font-family: "ballpark",sans-serif;
 }
 .header2 p{
     margin-top: 15px;
+    
 }
 nav ul a{
     /* display: flex; */
@@ -113,6 +106,9 @@ label{
     border-radius: 5px;
     
 }
+.bet{
+    margin-left: 10px;
+}
 .titre{
     display: flex;
     margin-top: 15px;
@@ -125,7 +121,7 @@ label{
     justify-content: space-between;
 }
 .paragraphe{
-    width: 65%;
+    width: 63%;
     height: 400px;
 
 }
@@ -142,6 +138,16 @@ span{
 }
 .paragraphe p{
     padding-top: 20px;
+    text-align: justify;
+    font-family: "dayrom";
+    font-size: 15px;
+}
+.bordure h2,p{
+    font-family: "dayrom";
+    font-size: 15px;
+}
+.titre h2{
+    font-family: "dayrom";
 }
 /* LES 4 ICONE DES RESAUX SOCIAUX */
 .icone{
@@ -192,13 +198,27 @@ span{
     width: 110%;
     color: rgb(247, 17, 17);
 }
-.list ul{
-    list-style-type: circle;
+.list ul,li{
+    font-size: 15px;
+    font-family: "dayrom";
 }
 .footer h2{
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 17px;
+    
 }
 .footer p{
     margin-bottom: 15px;
+}
+.liste ul{
+    list-style-image: url(../images/ico_liensexterne.png);
+    font-family: "dayrom";
+}
+.bulle{
+    height: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 350px;
+    margin-right: 0px;
 }
